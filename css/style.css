@@ -21,3 +21,20 @@ header {
     font-weight: 500;
     font-style: italic;
 }
+
+.song_title {
+    border: 5px solid brown;
+    text-align: center;
+    font-size: 30px;
+}
+
+.song-text-box {
+    border: 5px solid rgb(8, 75, 64);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: italic;
+    height: 60vh;
+    width: 40vh;
+}
